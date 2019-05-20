@@ -128,8 +128,18 @@ public class FXMLDocumentController implements Initializable {
 
     //Clears entries
     @FXML private void clearButtonListener(ActionEvent event) {
+        velocityText.setText("");
+        velocityLabel.setText("");
+        massText.setText("");
+        massLabel.setText("");
+        accelerationText.setText("");
+        accelerationLabel.setText("");
+        timeText.setText("");
+        timeLabel.setText("");
         forceText.setText("");
         forceLabel.setText("");
+        distanceText.setText("");
+        distanceLabel.setText("");
     }//end clearButtonListener method
    
 }//end DocumentController
